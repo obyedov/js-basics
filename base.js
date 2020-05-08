@@ -1,5 +1,5 @@
 // 1 переменные
-const firstname = 'Vitaliy'
+const firstName = 'Vitaliy'
 const lastName = 'Obyedov' // string
 const age = 29 // number
 //console.log(firstname)
@@ -16,5 +16,9 @@ const withNum5 = '5'
 //const 5withNum = '5'//Uncaught SyntaxError: Invalid or unexpected token
 
 // 2 Мутирование
-console.log(`Имя человека ${firstname}`)
+console.log(`Имя человека ${firstName}`)
 console.log('Фамилия человека ' + lastName)
+//console.log('Имя человека: ' + firstName + ', а возраст человека: ' + age.toString())
+console.log('Имя человека: ' + firstName + ', а возраст человека: ' + age.toString())
+const hight = +prompt('Введите рост в см')
+alert('Твой рост ' + hight + 'см')
